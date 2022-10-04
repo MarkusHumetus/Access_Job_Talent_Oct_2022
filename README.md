@@ -1,12 +1,9 @@
-# Access_Job_Talent_Oct_2022
-Project to access to the hackathon organised by Barcelona Digital Talen (17th October2022)
+# Intro/Objectives: Project to access the Hackathon from JobTalent Hackathon on 17th October 2022
 
-## Intro/Objectives: Project to access the Hackathon from JobTalent Hackathon on 17th October 2022
-
-Project to get access to the Hackathon organised by 42Barcelona, Barcelona Activa and Barcelona Digital Talent. At the botton of this readme you can find the [initial information](##-Initial-Info) shared throuhg the Nuwe platform. [Train data set](https://github.com/MarkusHumetus/Access_Job_Talent_Oct_2022/blob/main/initial_files/jm_train.csv) and [Test data set](https://github.com/MarkusHumetus/Access_Job_Talent_Oct_2022/blob/main/initial_files/jm_X_test.csv) without the diagnosis/label column are in the initial Docs folder in this repository.
+Project to get access to the Hackathon organised by 42Barcelona, Barcelona Activa and Barcelona Digital Talent. At the botton of this readme you can find the [initial information](#-Initial-Info) shared throuhg the Nuwe platform. [Train data set](https://github.com/MarkusHumetus/Access_Job_Talent_Oct_2022/blob/main/initial_files/jm_train.csv) and [Test data set](https://github.com/MarkusHumetus/Access_Job_Talent_Oct_2022/blob/main/initial_files/jm_X_test.csv) without the diagnosis/label column are in the [initial Docs folder](https://github.com/MarkusHumetus/Access_Job_Talent_Oct_2022/tree/main/initial_files) in this repository.
 
     
-## Methodology
+# Methodology
 
 1. Load libraries and data.
 2. Exploratory, Analysis and manipulation of initial Data.
@@ -14,7 +11,7 @@ Project to get access to the Hackathon organised by 42Barcelona, Barcelona Activ
 4. Tunning of hyperparameters to optimize the chosen model.
 5. Predict the status for the test data set (supplied without label) with the optimised model.
 
-## Tools
+# Tools
 
 * Python
 * Git & Github
@@ -22,12 +19,12 @@ Project to get access to the Hackathon organised by 42Barcelona, Barcelona Activ
 * Visual Studio Code
 * Libraries: Pandas, Numpy, Sweetviz, Seaborn, Matplotlib, Sklearn, Pycaret. 
 
-## Getting Started
+# Getting Started
 
 1. Clone this [repo](https://github.com/MarkusHumetus/Access_Job_Talent_Oct_2022) (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
 2. Use [requirements.txt](https://github.com/MarkusHumetus/Access_Job_Talent_Oct_2022/blob/main/requirements.txt) to install all required dependencies. Please note that Pycaret 2.3.0 only works properly under Python 3.6-3.8
 
-## Project Status
+# Project Status
 
 [Finished]
 
@@ -35,36 +32,10 @@ Project was completed and submitted for competition in the 7th October  2022.
 Files generated in the repository:
 - [Jupyter Noebook: main.ipynb](https://github.com/MarkusHumetus/Access_Job_Talent_Oct_2022/blob/main/main.ipynb)
 
-- [predictions.csv](https://github.com/MarkusHumetus/Access_Project_Hackathon_ITA_Decathlon/blob/main/predictions.csv)
+- [predictions.csv](https://github.com/MarkusHumetus/Access_Job_Talent_Oct_2022/blob/main/predictions.csv)
 - [requirements.txt](https://github.com/MarkusHumetus/Access_Job_Talent_Oct_2022/blob/main/requirements.txt)
 
-## Contact
-
-If you have any comment, doubt, proposal,... don't hesitate to contact me by email to Marc.Humet.DataScience@gmail.com or by 
- [![LinkedIn][linkedin-shield]][linkedin-url]
-
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[linkedin-url]: https://www.linkedin.com/in/marchumetmontada/
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-
-
-
-
-## Acknowledgments
-
-Thanks to the following organisations for the set up of such event which give the junior data scientist oportunities to learn, do networking and hopefully reach a first job in the data field.
-
-![42Barcelona Fundación Telefonica](https://challenges-asset-files.s3.us-east-2.amazonaws.com/companies/42_card.png)
-
-![Barcelona Activa](https://challenges-asset-files.s3.us-east-2.amazonaws.com/companies/bactiva_card.png)
-
-![Barcelona Digital Talent](https://challenges-asset-files.s3.us-east-2.amazonaws.com/companies/BDT_card.png)
-
-![ITA_Academy](https://itacademy.barcelonactiva.cat/pluginfile.php/1/theme_remui/logo/1658314293/logo.png)
-
-![Nuwe](https://elreferente.es/wp-content/uploads/2021/12/LOGO_LETTERS_MONO-3.png)
-
-## Initial Info
+# Initial Info
 
 Jorge es un geólogo del IGME (Instituto Geológico y Minero de España) que está desarrollando un nuevo sistema de prevención de erupciones para poder predecir qué tipo de erupción tendrá un volcán según las las vibraciones detectadas por sus sensores durante los días previos a la erupción. Esto permitirá reducir el riesgo de víctimas y destrozos materiales por este tipo de catástrofe natural.
 El sistema de Jorge trabaja con 5 tipos de erupciones:
@@ -102,20 +73,33 @@ Target 2 corresponde a una erupción de tipo Vulcaniana
 Target 3 corresponde a una erupción de tipo Hawaiana
 Target 4 corresponde a una erupción de tipo Estromboliana
 
-Evaluación
-La evaluación se basará en los objetivos cumplidos, en la calidad de código y en la documentación.
+⚖ Evaluación
+La evaluación se basará en los objetivos cumplidos (900/1200), en la calidad de código (200/1200)  y en la documentación (100/1200).
 
 Entrega
-Se deberá pegar el link a tu repositorio de Github/Gitlab en el que haya un archivo (.ipynb o .py) con todo el código escrito y un archivo .csv con las predicciones de tu modelo.
+Se deberá pegar el link a tu repositorio de Github/Gitlab en el que haya un archivo (.ipynb o .py) con todo el código escrito y un archivo predictions.csv con las predicciones de tu modelo.
 
-Submission
-Per realizar l'entrega es demana un fitxer csv amb el nom "predictions.csv" on estará la columna de diagnosis amb un 0 o 1, en funció de si es benigne o maligne. Notar que cada fila del predictions correspon a la predicció de la fila del test amb les dades.
+# Contact
 
-⚖ Evaluation
-Per a l'avaluació es tindrà en compte el següent:
+If you have any comment, doubt, proposal,... don't hesitate to contact me by email to Marc.Humet.DataScience@gmail.com or by 
+ [![LinkedIn][linkedin-shield]][linkedin-url]
 
-100/1200:  (OBJECTIUS) 
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[linkedin-url]: https://www.linkedin.com/in/marchumetmontada/
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 
-900/1200: (OBJECTIUS) Això s'obtindrà a partir de la puntuació (macro) f1 del model predictiu. Comparant les prediccions que ha fet el vostre model sobre test_x versus la veritat terrestre.
 
-200/1200: (DOCUMENTACIÓ) S'avaluarà la documentació entregada en la s'expliqui la solució que han fet servir per resoldre el problema i justificar la metodologia.
+# Acknowledgments
+
+Thanks to the following organisations for the set up of such event which give the junior data scientist oportunities to learn, do networking and hopefully reach a first job in the data field.
+
+![42Barcelona Fundación Telefonica](https://challenges-asset-files.s3.us-east-2.amazonaws.com/companies/42_card.png)
+
+![Barcelona Activa](https://challenges-asset-files.s3.us-east-2.amazonaws.com/companies/bactiva_card.png)
+
+![Barcelona Digital Talent](https://challenges-asset-files.s3.us-east-2.amazonaws.com/companies/BDT_card.png)
+
+![ITA_Academy](https://itacademy.barcelonactiva.cat/pluginfile.php/1/theme_remui/logo/1658314293/logo.png)
+
+![Nuwe](https://elreferente.es/wp-content/uploads/2021/12/LOGO_LETTERS_MONO-3.png)
+
