@@ -1,6 +1,6 @@
 # Intro/Objectives: Project to access the Hackathon from JobTalent Hackathon on 17th October 2022
 
-Project to get access to the Hackathon organised by 42Barcelona, Barcelona Activa and Barcelona Digital Talent. At the botton of this readme you can find the [initial information](#-Initial-Info) shared throuhg the Nuwe platform. [Train data set](https://github.com/MarkusHumetus/Access_Job_Talent_Oct_2022/blob/main/initial_files/jm_train.csv) and [Test data set](https://github.com/MarkusHumetus/Access_Job_Talent_Oct_2022/blob/main/initial_files/jm_X_test.csv) without the diagnosis/label column are in the [initial Docs folder](https://github.com/MarkusHumetus/Access_Job_Talent_Oct_2022/tree/main/initial_files) in this repository.
+Project to get access to the Hackathon organised by 42Barcelona, Barcelona Activa and Barcelona Digital Talent. At the botton of this readme you can find the [initial information](#Initial-Info) shared throuhg the Nuwe platform. [Train data set](https://github.com/MarkusHumetus/Access_Job_Talent_Oct_2022/blob/main/initial_files/jm_train.csv) and [Test data set](https://github.com/MarkusHumetus/Access_Job_Talent_Oct_2022/blob/main/initial_files/jm_X_test.csv) without the diagnosis/label column are in the [initial Docs folder](https://github.com/MarkusHumetus/Access_Job_Talent_Oct_2022/tree/main/initial_files) in this repository.
 
     
 # Methodology
@@ -52,7 +52,7 @@ __Hawaiana__: Consiste en la emisión de material volcánico, mayoritariamente b
 
 __Estromboliana__: La erupción Estromboliana está caracterizada por erupciones explosivas separadas por periodos de calma de duración variable. El proceso de cada explosión corresponde a la evolución de una burbuja de gases liberados por el propio magma.
 
-✅ __Objectivo__
+🎯 __Objectivo__
 
 El __objetivo__ de este reto será__ ayudar a Jorge realizando el modelado predictivo basado en Random Forests que permita conocer el tipo de erupción que tendrá un volcán en función de las vibraciones medidas por los sensores.
 
@@ -61,7 +61,7 @@ Una vez se haya hecho y entrenado el modelo predictivo, este se tendrá que empl
 La calidad de la predicción se medirá a partir del f1-score (macro).
 
 
-📈 Dataset
+📈 __Dataset__
 
 Features: El dataset contiene 6 features en 6 columnas, que son los parámetros medidos por los diferentes sensores. Estos corresponden a las vibraciones detectadas en ciertos puntos de la ladera del volcán.
 
@@ -73,10 +73,10 @@ Target 2 corresponde a una erupción de tipo Vulcaniana
 Target 3 corresponde a una erupción de tipo Hawaiana
 Target 4 corresponde a una erupción de tipo Estromboliana
 
-⚖ Evaluación
+⚖ __Evaluación__
 La evaluación se basará en los objetivos cumplidos (900/1200), en la calidad de código (200/1200)  y en la documentación (100/1200).
 
-Entrega
+📜 __Entrega__
 Se deberá pegar el link a tu repositorio de Github/Gitlab en el que haya un archivo (.ipynb o .py) con todo el código escrito y un archivo predictions.csv con las predicciones de tu modelo.
 
 # Contact
