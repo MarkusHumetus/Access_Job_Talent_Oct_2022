@@ -5,11 +5,13 @@ Project to get access to the Hackathon organised by 42Barcelona, Barcelona Activ
     
 # Methodology
 
-1. Load libraries and data.
-2. Exploratory, Analysis and manipulation of initial Data.
-3. Screening classification by machine Learning.
-4. Tunning of hyperparameters to optimize the chosen model.
+0. Load libraries and data.
+1. Exploratory, Analysis and manipulation of initial Data (Sweetviz library used).
+2. Data Engineering
+3. Study Data Engineering impact on model performance
+4. Tunning of hyperparameters to optimize the Random Forest model.
 5. Predict the status for the test data set (supplied without label) with the optimised model.
+6. Results and conclusions
 
 # Tools
 
@@ -17,7 +19,7 @@ Project to get access to the Hackathon organised by 42Barcelona, Barcelona Activ
 * Git & Github
 * Jupyter Notebook
 * Visual Studio Code
-* Libraries: Pandas, Numpy, Sweetviz, Seaborn, Matplotlib, Sklearn, Pycaret. 
+* Libraries: Pandas, Numpy, Sweetviz, Seaborn, Matplotlib, Sklearn, Pycaret, Optuna. 
 
 # Getting Started
 
